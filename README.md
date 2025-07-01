@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NewsApp-React-Native-Mobile-App
 
 ![Image](https://cdn.dribbble.com/userupload/11230077/file/original-5bd1c582562508ab6d9e5fb52be12d6b.png?resize=1504x846)
@@ -44,3 +45,7 @@ Like `npm start` / `yarn start`, but also attempts to open your app on a connect
 </p>
 
 <a href="https://www.buymeacoffee.com/joestackss">☕ Buy me a coffee</a>
+=======
+# NewsApp-React-Native-Mobile-App-master
+NewsApp-React-Native-Mobile-App-master 250701
+>>>>>>> 81994673715037f77042b696f5e66f6c743c80ac
