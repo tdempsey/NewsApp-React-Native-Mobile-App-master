@@ -103,7 +103,7 @@ export default function NewsSection({ newsProps }) {
     return (
       <TouchableOpacity
         className="mb-4 mx-4 space-y-1"
-        key={index}
+        key={item.url}
         onPress={() => handleClick(item)}
       >
         <View className="flex-row justify-start w-[100%]shadow-sm">
@@ -174,7 +174,7 @@ export default function NewsSection({ newsProps }) {
         scrollEnabled={false}
         data={newsProps}
         showsVerticalScrollIndicator={false}
-        keyExtractor={(item, index) => index.toString()}
+        keyExtractor={(item, index) => item.url || index.toString()}
         renderItem={renderItem}
       />
     </View>
