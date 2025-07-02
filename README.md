@@ -31,6 +31,15 @@ Like `npm start` / `yarn start`, but also attempts to open your app in the iOS S
 
 Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
 
+## NewsAPI Key
+
+This project fetches news from [NewsAPI](https://newsapi.org). To use the app you must supply your own API key.
+
+1. Create a free account at [newsapi.org](https://newsapi.org) and generate a key.
+2. Edit `utils/ApiKey.js` and replace `ADD_YOUR_API_KEY` with your key (or load it from an environment variable).
+
+Without a valid key the application cannot retrieve articles.
+
 <br />
 
 💙 If you like this project, give it a ⭐ and share it with friends!
