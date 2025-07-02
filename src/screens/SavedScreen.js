@@ -108,7 +108,7 @@ export default function SavedScreen() {
     try {
       await AsyncStorage.removeItem("savedArticles");
       setSavedArticles([]);
-      console.log("Clear all saved articles");
+      // console.log("Clear all saved articles");
     } catch (error) {
       // console.log("Error clearing saved articles", error);
     }
