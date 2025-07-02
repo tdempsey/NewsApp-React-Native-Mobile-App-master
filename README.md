@@ -31,6 +31,20 @@ Like `npm start` / `yarn start`, but also attempts to open your app in the iOS S
 
 Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
 
+## Testing and Debugging
+
+Run the test suite with:
+
+```bash
+npm test
+```
+
+To print useful environment details for debugging you can run:
+
+```bash
+npm run debug
+```
+
 ## NewsAPI Key
 
 This project fetches news from [NewsAPI](https://newsapi.org). To use the app you must supply your own API key.
